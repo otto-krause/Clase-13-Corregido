@@ -12,7 +12,8 @@ int main( )
 	printf("Los alumnos: ");
 	for (z=1;z<16;z++){
 
-	if (v[z]>=8){
+	if (v[z]>=8)
+	{
 		printf(" %d, ",z);
 	}
 
