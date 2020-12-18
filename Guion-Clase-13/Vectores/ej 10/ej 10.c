@@ -43,12 +43,14 @@ int main()
 	printf("\n La suma de los 10 numeros son %.2f ",acu);
 	}
 
-	void prod(float v[10]){
+	void prod(float v[10])
+	{
 
 	int j;
 	float mul=1;
 
-	for(j=0;j<10;j++){
+	for(j=0;j<10;j++)
+	{
 
 	mul=mul*v[j];
 
@@ -74,7 +76,8 @@ int main()
 	for(k=0;k<10;k++)
 	{
 
-	if(v[k]<prom){
+	if(v[k]<prom)
+	{
 
 	cont1=cont1+1;
 
